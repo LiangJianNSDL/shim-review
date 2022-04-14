@@ -25,7 +25,7 @@ What organization or people are asking to have this signed:
 -------------------------------------------------------------------------------
 What product or service is this for:
 -------------------------------------------------------------------------------
-[Newstart Desktop Linux V4.3.8]
+[Newstart Desktop Linux V4]
 
 -------------------------------------------------------------------------------
 What's the justification that this really does need to be signed for the whole world to be able to boot it:
@@ -131,7 +131,7 @@ If bootloader, shim loading is, GRUB2: is CVE-2020-14372, CVE-2020-25632,
  CVE-2020-10713, CVE-2020-14308, CVE-2020-14309, CVE-2020-14310, CVE-2020-14311,
  CVE-2020-15705, and if you are shipping the shim_lock module CVE-2021-3418
 -------------------------------------------------------------------------------
-Yes,those CVEs are fixed in the grub2-2.02-99 version from Centos we are using.
+Yes,those CVEs are fixed in current version grub2-2.02-99.
 
 
 -------------------------------------------------------------------------------
