@@ -112,7 +112,7 @@ Please create your shim binaries starting with the 15.6 shim release tar file: h
 This matches https://github.com/rhboot/shim/releases/tag/15.6 and contains the appropriate gnu-efi source.
 
 -------------------------------------------------------------------------------
-This is the unmodified shim-15.6 release.
+There is no change in shim-15.6 except applying NX.patch.
 
 -------------------------------------------------------------------------------
 ### URL for a repo that contains the exact code which was built to get this binary:
@@ -122,7 +122,7 @@ https://github.com/rhboot/shim/releases/download/15.6/shim-15.6.tar.bz2
 -------------------------------------------------------------------------------
 ### What patches are being applied and why:
 -------------------------------------------------------------------------------
-None.
+NX.patch has been applied to enable NX support.
 
 -------------------------------------------------------------------------------
 ### If shim is loading GRUB2 bootloader what exact implementation of Secureboot in GRUB2 do you have? (Either Upstream GRUB2 shim_lock verifier or Downstream RHEL/Fedora/Debian/Canonical-like implementation)
